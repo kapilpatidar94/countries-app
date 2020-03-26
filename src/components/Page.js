@@ -2,7 +2,7 @@ import React, {useRef, useEffect} from 'react'
 import {useLocation} from 'react-router-dom'
 import {Box, Heading, Grid} from '@chakra-ui/core'
 import Container from './Container'
-
+import "../app.css"
 const Page = ({title, header, children}) => {
   const location = useLocation()
   const headingRef = useRef(null)
@@ -12,7 +12,7 @@ const Page = ({title, header, children}) => {
   }, [location])
 
   return (
-    <Box as="section" bg="gray.50" minH="100vh" py="8">
+    <Box as="section" bg="gray.50" minH="100vh" py="8" id="light">
       <Container>
         <Box as="header">
           <Heading

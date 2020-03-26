@@ -1,0 +1,11 @@
+
+#light-mode, #light, #light1, #light2 {
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease;
+  }
+#dark-mode, #dark, #dark1, #dark2 {
+    background-color: #1a1919;
+    color: #999;
+  }
+  

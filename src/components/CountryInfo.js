@@ -29,6 +29,7 @@ const CountryInfo = ({countryCode}) => {
 
   return (
     <Fragment>
+      <div id="light2">
       {error ? (
         <Text
           textAlign="center"
@@ -145,6 +146,7 @@ const CountryInfo = ({countryCode}) => {
           </Box>
         </Grid>
       ) : null}
+      </div>
     </Fragment>
   )
 }
